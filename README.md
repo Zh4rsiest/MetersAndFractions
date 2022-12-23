@@ -25,7 +25,7 @@ Hope this unfinished project demonstrates enough about my skills, consume it wit
 2. Run `composer install` 
 3. Run `npm install` 
 4. Create the following databases for the project `coding_assignment` and `coding_assignment_unit_tests`
-5. Configure `.env` file according to local environment (`DB_CONNECTION`, `DB_HOST`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`)
+5. Duplicate `.env.example`, save as `.env` and configure it according to local environment (`DB_CONNECTION`, `DB_HOST`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`)
 6. Run `php artisan config:clear && php artisan cache:clear` to clear cache – this is needed after any change in the `.env` file
 7. Run `php artisan key:generate` to generate application key
 8. TODO: Run `php artisan migrate` to run migrations
